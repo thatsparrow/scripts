@@ -1,8 +1,7 @@
 #!/bin/bash
 
 clear
-echo "cleaning..."
+echo "Cleaning..."
 sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
-echo "done."
-free -m 
+echo "Cleaned."
 
