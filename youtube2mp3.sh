@@ -9,8 +9,6 @@
 # ffmpeg restricted extras -> ability to save the file in mp3 format
 # recode -> convert the filename to ascii otherwise you will end with &nsbp; and other chars from html entities
 
-
-
 if [ -z $1 ]
 then
 	echo "Plase input a file with youtube links, one per line."
